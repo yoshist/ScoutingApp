@@ -5,8 +5,7 @@ import Home from './pages/Home';
 import Match_App from './pages/apps/Match_App';
 import Strategic_App from './pages/apps/Strategic_App';
 import PIT_App from './pages/apps/PIT_App';
-
-
+import Header from './components/Header';
 
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
     // </div>
     <>
     <Router>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/match-app" element={<Match_App/>} />
