@@ -5,11 +5,17 @@ export default function Header() {
     <div>
         <header>
         <div>
-            <ul id="unorderedList">
+            <ul id="scouting-apps">
                 <li>Match</li>
                 <li>Strategic</li>
                 <li>Pit</li>
             </ul>
+        </div>
+        <div>
+          <ul id="scouting-reports">
+              <li>DTDF</li>
+              <li>Team Score</li>
+          </ul>
         </div>
         </header>
     </div>
