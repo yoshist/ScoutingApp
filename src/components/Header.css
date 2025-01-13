@@ -33,11 +33,12 @@
 }
 
 .menu-item {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-weight: 400;
     border: 1px solid;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .current-page-app {

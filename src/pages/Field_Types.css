@@ -1,0 +1,39 @@
+
+.text-field-style {
+    margin-bottom: 24px;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    line-height: 1.6;
+
+    background-color: white;
+    border-radius: 4px;
+
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+}
+
+.responsive-div {
+    /* Default  */
+    width: 100%;
+    margin-bottom: 48px;
+
+    /* Medium Screen */
+    @media (min-width: 768px) {
+        width: 67%;
+        margin-bottom: 24px;
+    }
+
+    /* Large screen */
+    @media (min-width: 1024px) {
+        width: 40%;
+        margin-left: 120px;
+        
+    }
+
+}
+
+.radio-field-style {
+    height: 20px;
+    width: 20px;
+}
