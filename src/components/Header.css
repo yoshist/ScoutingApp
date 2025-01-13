@@ -1,0 +1,54 @@
+.header h3 {
+    text-align: center;
+}
+
+.menu {
+    Display: flex;
+    list-style-type: none;
+    /* list-style: none; */
+    margin: 0;
+    padding: 0; 
+    margin-left: 2.5rem;
+}
+
+.scouting-apps {
+    background-color: hsl(321, 74%, 92%, 100%);
+}
+
+.scouting-reports {
+    background-color: hsl(199, 80%, 86%, 100%);
+}
+
+.outer-div-style {
+    /* display: flex;  */
+    background-color: white;
+    border-bottom-width: 1px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 0.05);
+    position: sticky;
+    top:0px;
+    z-index: 40;
+}
+
+.header-style{
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 0.05);
+    position: sticky;
+    text-align: center;
+}
+
+li {
+    padding-top: 0.25rem;
+    padding-bottom: 0.55rem;
+    font-weight: 600;
+    border-bottom-width: 3px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > * {
+    flex-grow: 1;
+}
