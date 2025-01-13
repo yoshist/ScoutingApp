@@ -4,15 +4,12 @@
 
 .menu {
     Display: flex;
-    list-style-type: none;
-    /* list-style: none; */
     margin: 0;
     padding: 0; 
-    margin-left: 2.5rem;
 }
 
 .scouting-apps {
-    background-color: hsl(321, 74%, 92%, 100%);
+    background-color: hsl(314, 69%, 91%);
 }
 
 .scouting-reports {
@@ -26,7 +23,6 @@
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 0.05);
     position: sticky;
     top:0px;
-    z-index: 40;
 }
 
 .header-style{
@@ -36,13 +32,28 @@
     text-align: center;
 }
 
-li {
-    padding-top: 0.25rem;
-    padding-bottom: 0.55rem;
-    font-weight: 600;
-    border-bottom-width: 3px;
-    border-bottom-color: transparent;
-    border-bottom-style: solid;
+.menu-item {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 400;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.current-page-app {
+    background-color: rgb(97, 6, 79);
+    color: white;
+    font-weight: bold;
+}
+
+.current-page-report {
+    background-color: rgb(31, 4, 105);
+    color: white;
+    font-weight: 700;
+}
+
+.menu-item > div {
+    display: inline-block;
 }
 
 .flex {
