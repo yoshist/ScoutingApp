@@ -28,9 +28,7 @@
     @media (min-width: 1024px) {
         width: 40%;
         margin-left: 120px;
-        
     }
-
 }
 
 .radio-field-style {
@@ -45,3 +43,4 @@
 .red {
     color: red;
 }
+

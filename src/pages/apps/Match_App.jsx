@@ -36,7 +36,7 @@ export default function Match_App() {
                 <input className="radio-field-style" type="radio" id="Semifinals" name="Match_Level" value="Semifinals"/>
                 <label>Semifinals</label> <br />
                 <input className="radio-field-style" type="radio" id="Finals" name="Match_Level" value="Finals" />
-                <label>Finals</label>
+                <label>Finals</label> <br /> <br />
               </td>
             </tr>
 
