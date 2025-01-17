@@ -45,32 +45,29 @@ export default function Match_App() {
                 <label for="Robot">Robot: </label>
               </td>
               <td>
-                <input className="radio-field-style" type="radio" id="Robot-Red1" name="Robot" value="Red 1"/>
-                <label>Red-1</label>
+                <input className="radio-field-style" type="radio" id="Robot-Red1" name="Robot" value="Red 1" />
+                <label className="red">Red-1</label>
 
                 <input className="radio-field-style" type="radio" id="Robot-Blue1" name="Robot" value="Blue 1"/>
-                <label>Blue-1</label><br/>
+                <label className="blue">Blue-1</label><br/>
 
                 <input className="radio-field-style" type="radio" id="Robot-Red2" name="Robot" value="Red 2"/>
-                <label>Red-2</label>
+                <label className="red">Red-2</label>
 
                 <input className="radio-field-style" type="radio" id="Robot-Blue1" name="Robot" value="Blue 2"/>
-                <label>Blue-2</label><br/>
+                <label className="blue">Blue-2</label><br/>
 
                 <input className="radio-field-style" type="radio" id="Robot-Red3" name="Robot" value="Red 3"/>
-                <label>Red-3</label>
+                <label className="red">Red-3</label>
 
-                <input className="radio-field-style" type="radio" id="Robot-Blue4" name="Robot" value="Blue 4"/>
-                <label>Blue-4</label>
+                <input className="radio-field-style" type="radio" id="Robot-Blue3" name="Robot" value="Blue 3"/>
+                <label className="blue">Blue-3</label>
               </td>
             </tr>
-
           </table>
         </div>
 
       </form>
-      
-      
     </div>
   )
 }
