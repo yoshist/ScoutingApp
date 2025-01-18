@@ -19,13 +19,21 @@ export default function Match_App() {
 
             <tr>
               <td>
-                <label for="event">Event: </label>
+                <label for="match-number">Match Number: </label>
               </td>
               <td>
-              <input className="text-field-style" type="text" id="event" name="Event"/>
+              <input className="text-field-style" type="text" id="match-number" name="Match_Number"/>
               </td>
             </tr>
 
+            <tr>
+            <td>
+                <label for="">Match Level: </label>
+              </td>
+              <td>
+              <input className="text-field-style" type="text" id="match-level" name="Match_Level"/>
+              </td>
+            </tr>
             <tr>
               <td>
                 <label for="match-level">Match Level: </label>
