@@ -7,6 +7,7 @@ import Strategic_App from './pages/apps/Strategic_App';
 import PIT_App from './pages/apps/PIT_App';
 import DTF_Report from './pages/reports/DTF_Report';
 import Team_Score_Report from './pages/reports/Team_Score_Report';
+import Chart_Report from './pages/reports/Chart_Report';
 import Header from './components/Header';
 
 
@@ -24,6 +25,7 @@ function App() {
 
         <Route path="/dtf-report" element={<DTF_Report/>} />
         <Route path="/team-score-report" element={<Team_Score_Report/>} />
+        <Route path="/chart-report" element={<Chart_Report/>} />
       </Routes>
     </Router>
     </>

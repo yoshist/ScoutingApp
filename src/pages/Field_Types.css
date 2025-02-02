@@ -44,3 +44,11 @@
     color: red;
 }
 
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: rgb(226, 187, 235);
+}
